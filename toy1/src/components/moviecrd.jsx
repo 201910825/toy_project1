@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { useParams } from 'react-router-dom';
 import useDrag from './jimin-swiper';
@@ -9,7 +9,6 @@ function MovieCrd() {
 
   const {
     containerRef: castContainerRef,
-    isDragging: isCastDragging,
     handleMouseDown: handleCastMouseDown,
     handleMouseMove: handleCastMouseMove,
     handleMouseUp: handleCastMouseUp,
@@ -18,7 +17,6 @@ function MovieCrd() {
 
   const {
     containerRef: crewContainerRef,
-    isDragging: isCrewDragging,
     handleMouseDown: handleCrewMouseDown,
     handleMouseMove: handleCrewMouseMove,
     handleMouseUp: handleCrewMouseUp,

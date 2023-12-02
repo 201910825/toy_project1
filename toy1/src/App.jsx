@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import'./index.css';
 import Header from './components/header';
-import Main from './components/main';
+
 import Loading from './components/Loading';
 import Footer from './components/footer';
 import Popular from './components/popular';
@@ -62,13 +62,4 @@ min-height: 100vh;
 
 `
 
-const Navbar = styled.div`
-  background-color: black;
-  width: 100vw;
-  height: 30vh;
-  z-index: 5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`
 export default App;
