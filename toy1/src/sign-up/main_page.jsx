@@ -119,7 +119,6 @@ export default function Sign_Up() {
           }
            
           else {
-            dispatch(userFailure(error.message));
             alert("회원가입에 실패하였습니다.");
           }});
     

@@ -51,7 +51,7 @@ function Nowplaying() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const { scrollTop, scrollHeight } = document.documentElement;
+        const { scrollTop } = document.documentElement;
   
         const response = await fetch(apiUrlNowplaying);
         const data = await response.json();

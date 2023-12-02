@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import styled from 'styled-components';
 import Movie from "./movie";
 import { Link } from "react-router-dom";
-import Loading from "./Loading";
 
 export default function Search() {
   const [search, setSearch] = useState("");
